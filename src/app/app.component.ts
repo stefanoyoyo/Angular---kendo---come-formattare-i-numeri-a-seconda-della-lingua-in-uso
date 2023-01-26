@@ -4,7 +4,7 @@ import { IntlService } from '@progress/kendo-angular-intl';
 @Component({
   selector: 'my-app',
   template: `
-  // Il formato "n" non aggiunge alcun simbolo dopo il numero 
+   Il formato "n" non aggiunge alcun simbolo dopo il numero 
     <div class="col-xs-12 col-md-12" style="margin-bottom: 1em;">
         <div class="col-xs-12 col-md-9">
             <h5 style="color:red;">Format 1234.567 using a 'n2' format</h5>
@@ -14,7 +14,7 @@ import { IntlService } from '@progress/kendo-angular-intl';
         </div>
     </div>
 
-    // Il formato "c" aggiunge il simbolo della moneta dopo il numero a seconda della lingua in uso
+    Il formato "c" aggiunge il simbolo della moneta dopo il numero a seconda della lingua in uso
     <div class="col-xs-12 col-md-12" style="margin-bottom: 1em;">
         <div class="col-xs-12 col-md-9">
             <h5 style="color:red;">Format 1234.567 using a 'c' format</h5>
